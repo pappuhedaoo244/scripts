@@ -1,0 +1,1000 @@
+  357  git commit -m "modified command"
+  358  git status
+  359  git push checkout develop
+  360  git push origin develop
+  361  cd
+  362  apt-get update
+  363  docker --version
+  364  apt-get remove docker docker-engine docker.io containerd runc
+  365  apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+  366  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  367  apt-get update
+  368  apt-get install docker-ce docker-ce-cli containerd.io
+  369  add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  370     $(lsb_release -cs) \
+  371     stable"
+  372  apt-get update4
+  373  apt-get update
+  374  apt-get install docker-ce docker-ce-cli containerd.io
+  375  docker --version
+  376  docker ps
+  377  docker status
+  378  docker ps -a
+  379  docker run -it ubuntu /bin/bash
+  380  docker ps
+  381  docker ps -a
+  382  docker ps
+  383  docker run -it -d ubuntu /bin/bash
+  384  docker ps
+  385  docker run -it -d centos /bin/bash
+  386  docker ps
+  387  docker ps -a
+  388  ps -ef | grep -i docker
+  389  docker exec -it 5f4bd192a640 /bin/bash
+  390  docker ps
+  391  docker ps -a
+  392  docker stop 5f4bd192a640
+  393  docker ps
+  394  docker ps -a
+  395  docker kill d2d639859e13
+  396  docker ps -a
+  397  docker ps
+  398  docker images
+  399  docker rmi ubuntu
+  400  docker ps -a
+  401  docker ps
+  402  docker images
+  403  docker rmi centos
+  404  docker rmi ubuntu -f
+  405  docker images
+  406  docker ps -a
+  407  docker --version
+  408  docker ps
+  409  cd localrepo/
+  410  git branch
+  411  git checkout rakesh
+  412  ls
+  413  git branch
+  414  ls
+  415  cd localrepo
+  416  ls
+  417  less command 
+  418  git branch -a
+  419  cd rakesh
+  420  ls
+  421  git branch
+  422  cd ..
+  423  ls
+  424  git branch
+  425  cd localrepo
+  426  git branch
+  427  cd ..
+  428  cd localrepo-1
+  429  ls
+  430  git branch
+  431  ls
+  432  cd ..
+  433  ls
+  434  git rm localrepo-1
+  435  ls
+  436  git 
+  437  ls
+  438  cd localrepo
+  439  ls
+  440  cd ../localrepo-1
+  441  ls
+  442  cd ..
+  443  rm -rf localrepo-1
+  444  ls
+  445  mv localrepo/ localrepo-1
+  446  ls
+  447  git branch
+  448  cd localrepo-1/
+  449  git branch
+  450  cd
+  451  docker images
+  452  cd localrepo/
+  453  docker images
+  454  cd
+  455  docker pull ubuntu
+  456  docker images
+  457  docker ps
+  458  docker run -it -d ubuntu 
+  459  docker ps
+  460  docker exec -it f439e6568753 bash
+  461  docker ps
+  462  docker ps -a
+  463  docker stop f439e6568753
+  464  docker ps
+  465  docker ps -a
+  466  docker run -it -d ubuntu /bin/bash
+  467  docker ps
+  468  docker exec -it 4a48707bd6cb /bin/bash
+  469  exit
+  470  cd
+  471  git --version
+  472  git log
+  473  ls
+  474  cd localrepo/
+  475  ls
+  476  git status
+  477  git branch
+  478  git checkout master
+  479  git branch
+  480  ls
+  481  cd
+  482  ls
+  483  cd newrepo/
+  484  ls
+  485  cd 
+  486  cd localrepo/
+  487  cd localrepo-1
+  488  ls
+  489  cd ..
+  490  git clone https://github.com/ankushgupta/localrepo.git
+  491  cd
+  492  ls
+  493  mkdir ankush
+  494  cd ankush/
+  495  ls
+  496  cd localrepo/
+  497  git branch
+  498  git checkout -D devops
+  499  git checkout devops
+  500  git checkout develop
+  501  git branch
+  502  ls
+  503  less command
+  504  tail -10 command 
+  505  ls
+  506  cd
+  507  ls
+  508  cd localrepo/
+  509  ls
+  510  cd localrepo
+  511  ls
+  512  tail -10 command 
+  513  cd
+  514  ls
+  515  cd ankush/
+  516  cd localrepo/
+  517  ls
+  518  mv command ../../localrepo/localrepo
+  519  cd 
+  520  cd localrepo/
+  521  ls
+  522  cd localrepo
+  523  ls
+  524  ll
+  525  tail -10 command 
+  526  git branch
+  527  git status
+  528  git add command 
+  529  git status
+  530  git commit command
+  531  git status
+  532  git commit command 
+  533  git status
+  534  git commit .
+  535  git commit -m "modified command"
+  536  git status
+  537  git push
+  538  cd
+  539  cd localrepo/
+  540  ls
+  541  git push
+  542  git log
+  543  git branch
+  544  cd localrepo
+  545  ls
+  546  git branch
+  547  git push -u origin develop
+  548  git clone https://github.com/pappuhedaoo244/localrepo-1.git
+  549  git status
+  550  ls
+  551  git push
+  552  git branch
+  553  cd
+  554  docker statis
+  555  docker ps
+  556  docker images
+  557  docker ps -a
+  558  docker images
+  559  docker run -it ubuntu /bin/bash
+  560  docker ps
+  561  docker run -it -d ubuntu /bin/bash
+  562  docker ps
+  563  docker run -it -d --name demo ubuntu /bin/bash
+  564  docker ps
+  565  ps -ef | grep -i docker
+  566  docker exec -it 112050a120ca bash
+  567  docker ps
+  568  docker stop 112050a120ca
+  569  docker ps
+  570  docker imags
+  571  docker images
+  572  docker ps -a
+  573  docker ps
+  574  docker kill 1b5bf31f8624
+  575  docker ps
+  576  docker images
+  577  docker ps -a
+  578  docker ps
+  579  docker images
+  580  docker rm 74435f89ab78
+  581  docker rm 1b5bf31f8624
+  582  docker ps -a
+  583  docker rm 112050a120ca
+  584  docker ps
+  585  docker ps -a
+  586  docker rm *
+  587  docker ps -a
+  588  docker images
+  589  docker rmi ubuntu
+  590  docker rmi ubuntu -f
+  591  docker images
+  592  docker ps -a
+  593  docker pull ubuntu:14.04
+  594  docker images
+  595  docker pull ubuntu
+  596  docker images
+  597  docker run -it -d --name apache 74435f89ab78 /bin/bash
+  598  docker ps
+  599  docker exec -it ee5fbd2631b5 /bin/bash
+  600  docker ps
+  601  docker run -d -p 80:80 apache
+  602  docker ps
+  603  docker run -it -p 80:80 ee5fbd2631b5
+  604  docker run -it -p 80:80 74435f89ab78
+  605  docker ps
+  606  docker run -it -d -p 80:80 74435f89ab78
+  607  docker ps
+  608  cd
+  609  docker ps
+  610  docker stop a74081022dc1
+  611  docker ps
+  612  docker commit ee5fbd2631b5 pappuhedaoo/local
+  613  docker ps
+  614  docker login
+  615  docker push pappuhedaoo/local
+  616  docker ps
+  617  docker images
+  618  docker tag pappuhedaoo/local ubuntu/apache2
+  619  docker images
+  620  docker push ubuntu/apache2
+  621  docker login
+  622  docker push ubuntu/apache2
+  623  docker ps
+  624  docker commit a317a460ba7d ubuntu/apache2
+  625  docker run -it -d -p 80:80 ubuntu/apache2
+  626  docker ps
+  627  docker exec -it 6d75e8ff2dc1 bash
+  628  docker ps
+  629  docker 
+  630  docker port
+  631  docker ps
+  632  docker port ee5fbd2631b5 80:80
+  633  docker port --help
+  634  docker stop ee5fbd2631b5
+  635  docker ps
+  636  docker ps -a
+  637  docker run -it -d 74435f89ab78 -p 80:80 /bin/bash
+  638  docker ps
+  639  docker run -it -d 74435f89ab78 
+  640  docker exec -it -p 80:80 74435f89ab78
+  641  docker exec --help
+  642  uptime
+  643  date
+  644  nslookup
+  645  cd'
+  646  cd
+  647  cd
+  648  clear
+  649  tcpdumptup
+  650  clear
+  651  uptime
+  652  date
+  653  cal
+  654  exit
+  655  cd
+  656  uptimed
+  657  uptime
+  658  tcpdump
+  659  man tcpdump
+  660  tcpdump -i any
+  661  tcpdump -i eth0
+  662  tcpdump -i eth1 -w packets_file
+  663  tcpdump ssh
+  664  tcpdump port 22
+  665  dig -v
+  666  dig google.com
+  667  dig google.com +short
+  668  dig google.com +short MX
+  669  nslookup google.com
+  670  cat /etc/hosts
+  671  cat /etc/resolv.conf 
+  672  cat /etc/nsswitch.conf 
+  673  nslookup 127.0.0.53
+  674  nslookup 172.217.4.110
+  675  dig google.com
+  676  nslookup google.com
+  677  nslookup -type=any google.com
+  678  uptime
+  679  date
+  680  useradd pappu
+  681  passwd pappu
+  682  id pappu
+  683  chage -l pappu
+  684  chage -d 0 pappu
+  685  chage -l pappu
+  686  exit
+  687  visudo
+  688  vi /etc/sudoers
+  689  su - pappu
+  690  w
+  691  ls
+  692  ll
+  693  iostat
+  694  uname -r
+  695  uptime
+  696  dat
+  697  df -h
+  698  pvs
+  699  lvs
+  700  fdisk -l
+  701  lsblk
+  702  fdisk /dev/xvda
+  703  lsblk
+  704  lastb
+  705  w
+  706  last
+  707  exit
+  708  dmesg -n 1
+  709  dmesg
+  710  w
+  711  +++[12~
+  712  iostat
+  713  exit
+  714  uptime
+  715  date
+  716  who; date
+  717  watch -d "uptime"
+  718  clear
+  719  top
+  720  echo $PATH
+  721  echo 'Pappu says"Scripting is easy"'
+  722  echo lets se
+  723  ls
+  724  vi test1
+  725  ls
+  726  ls -ld test1
+  727  chmod +x test1 
+  728  ./test1 
+  729  cat test1
+  730  vi test1 
+  731  ./test1 
+  732  vi test1 
+  733  ./test1 
+  734  vi test1 
+  735  ./test1 
+  736  set
+  737  set | less
+  738  set | grep -i UID
+  739  vi test2
+  740  chmod +x test2
+  741  ./test2
+  742  cat test2
+  743  echo " the cost of the item is $15"
+  744  echo " the cost of the item is \$15"
+  745  vi test3
+  746  chmod +x test3
+  747  ./test3
+  748  ls
+  749  cat test3
+  750  vi test3
+  751  ./test3
+  752  vi test3
+  753  ./test3
+  754  vi test3
+  755  ./test3
+  756  vi test4
+  757  chmod +x test4
+  758  ./test4
+  759  vi test5
+  760  chmod +x test4
+  761  ./test4
+  762  cat test4
+  763  cat test5
+  764  ls -ld test5
+  765  chmod +x test5
+  766  ./test5
+  767  cat test5
+  768  vi test5
+  769  ./test5
+  770  cat t
+  771  vi t
+  772  for i in $(cat t); do echo $i; done
+  773  vi t
+  774  for i in $(cat t) ; do echo `$i`; done
+  775  for i in $(cat t) ; do echo $i; done
+  776  history
+  777  cat t
+  778  or i in $(cat t) ; do echo `$i`; done
+  779  clear
+  780  cat test5
+  781  ./test5
+  782  vi t6
+  783  chmod +x t6
+  784  ./t6
+  785  cat t6
+  786  date
+  787  cd /usr/bin
+  788  ls
+  789  ls -ltrh | tail
+  790  cd
+  791  ls
+  792  cat log.210220 
+  793  ls
+  794  date > t7
+  795  cat t7
+  796  uptime > t8
+  797  cat t8
+  798  date > t8
+  799  cat t8
+  800  cat t6
+  801  date >> t8
+  802  cat t8
+  803  date < t8
+  804  cat t8
+  805  date
+  806  rpm -qa | sort 
+  807  apt install rpm
+  808  rpm -qa | sort 
+  809  yum list
+  810  ls
+  811  sar
+  812  ls -ld | sort 
+  813  ls
+  814  ls -ltrh | sort
+  815  ls -ltrh | sort > gandu.txt
+  816  ls
+  817  cat gandu.txt 
+  818  history > hist1.txt
+  819  cat hist.txt | less
+  820  cat hist1.txt | less
+  821  history >> hist1.txt
+  822  less hist1.txt 
+  823  compgen -u
+  824  compgen -u | tr "\n" "|"
+  825  clear
+  826  expr 1+9
+  827  expr 1 + 9
+  828  expr 5 * 2 
+  829  expr 5 \* 2 
+  830  vi test7
+  831  chmod +x test7
+  832  ./test7
+  833  ls
+  834  cd
+  835  shutdown -r now
+  836  history
+  837  cd /pappu/
+  838  ls
+  839  cd data
+  840  ls
+  841  apt-getupdate
+  842  apt-get update
+  843  apt-get install git
+  844  git
+  845  git  version
+  846  ls
+  847  rm -rf *
+  848  ls
+  849  ls
+  850  cd papp
+  851  ls
+  852  cd pappu/
+  853  ls
+  854  cd data
+  855  ls
+  856  git log
+  857  git branch
+  858  git revert fd11d67d8cee4b5a9d3662a0d86516d79550c136
+  859  ls
+  860  git status
+  861  git push
+  862  git
+  863  git reset
+  864  git
+  865  git status
+  866  git log
+  867  ls
+  868  git status
+  869  git reset
+  870  git --help
+  871  git help git
+  872  git-show
+  873  git show
+  874  git restore fd11d67d8cee4b5a9d3662a0d86516d79550c136.
+  875  git restore fd11d67d8cee4b5a9d3662a0d86516d79550c136
+  876  git log
+  877  history
+  878  git restore fd11d67d8cee4b5a9d3662a0d86516d79550c136
+  879  git revert fd11d67d8cee4b5a9d3662a0d86516d79550c136
+  880  ls
+  881  git status
+  882  git help
+  883  git clone https://github.com/pappuhedaoo244/pappu.git
+  884  ls
+  885  cd pappu
+  886  ls
+  887  cd
+  888  mkdir localrepo123
+  889  ls
+  890  cd localrepo123/
+  891  ls
+  892  git init .
+  893  ls
+  894  ls -la
+  895  test hello
+  896  ls
+  897  touch hello
+  898  ls
+  899  vi hello
+  900  git status
+  901  git add hello
+  902  git status
+  903  git commit -m "initial commit"
+  904  git remote -v
+  905  git remote add origin https://github.com/pappuhedaoo244/localrepo123.git
+  906  git remote -v
+  907  git remote add origin https://github.com/pappuhedaoo244/localrepo.git
+  908  git push -u origin master
+  909  history
+  910  cd
+  911  ls
+  912  cd pappu
+  913  ls
+  914  git clone https://github.com/pappuhedaoo244/localrepo.git
+  915  ls
+  916  cd localrepo/
+  917  ls
+  918  touch ata
+  919  ls
+  920  git status
+  921  git add ata
+  922  git status
+  923  git commit -m "new commit"
+  924  git commit -m "new"
+  925  git status
+  926  git push 
+  927  ls
+  928  mkdir data
+  929  ls
+  930  git status
+  931  cd ..
+  932  ls
+  933  cd localrepo/
+  934  ls
+  935  mv data /pappu
+  936  ls
+  937  cd ..
+  938  ls
+  939  cd
+  940  ls
+  941  cd pappu/
+  942  ls
+  943  cd localrepo/
+  944  ls
+  945  mkdir data
+  946  ls
+  947  mv data ..
+  948  ls
+  949  cd ..
+  950  ls
+  951  git status
+  952  ls
+  953  git status
+  954  git add data
+  955  ls
+  956  git status
+  957  cd  data
+  958  git init .
+  959  ls
+  960  touch beta
+  961  ls
+  962  git status
+  963  git add beta
+  964  git status
+  965  git commit -m "new"
+  966  git status
+  967  git push
+  968  git status
+  969  git push beta
+  970  git status
+  971  git remote -v
+  972  git remote add origin https://github.com/pappuhedaoo244/data.git
+  973  git remote -v
+  974  git  status
+  975  git push -u origin master
+  976  git status
+  977  cd ..
+  978  ls
+  979  rm -r data
+  980  ls
+  981  git clone https://github.com/pappuhedaoo244/data.git
+  982  ls
+  983  cd data
+  984  ls
+  985  cd ..
+  986  cd data
+  987  ls
+  988  mkdir a b c
+  989  ls
+  990  touch new
+  991  git status
+  992  git add .
+  993  git status
+  994  cd a
+  995  touch 1
+  996  cd ../bb
+  997  cd ../b
+  998  touch 2
+  999  cd ../c
+ 1000  touch 3
+ 1001  cd ..
+ 1002  ls
+ 1003  git add .
+ 1004  git status
+ 1005  git commit -m "testing folder"
+ 1006  git status
+ 1007  git push 
+ 1008  git status
+ 1009  ls
+ 1010  mkdir -p n/m/p
+ 1011  ls
+ 1012  cd n
+ 1013  ls
+ 1014  cd m
+ 1015  ls
+ 1016  cd p
+ 1017  ls
+ 1018  touch papa
+ 1019  git status
+ 1020  cd ../../..
+ 1021  git status
+ 1022  git add n
+ 1023  git status
+ 1024  git push 
+ 1025  git commit -m "different"
+ 1026  git status
+ 1027  git push 
+ 1028  git status
+ 1029  ls
+ 1030  cd n
+ 1031  ls
+ 1032  cd ..
+ 1033  ssh-key
+ 1034  ssh-keygen 
+ 1035  cat /root/.ssh/id_rsa.pub
+ 1036  ls
+ 1037  touch cat
+ 1038  ls
+ 1039  git status
+ 1040  git add cat
+ 1041  git status
+ 1042  git commit -m "new data"
+ 1043  git status
+ 1044  git push 
+ 1045  ls
+ 1046  git branch
+ 1047  git config --list
+ 1048  cd ..
+ 1049  ls
+ 1050  rm -r data
+ 1051  ls
+ 1052  git clone git@github.com:pappuhedaoo244/data.git
+ 1053  ls
+ 1054  cd data
+ 1055  ls
+ 1056  touch cat
+ 1057  ls
+ 1058  git status
+ 1059  git add cat
+ 1060  ls
+ 1061  git status
+ 1062  git commit -m "new"
+ 1063  git statys
+ 1064  git status
+ 1065  git push
+ 1066  git pull
+ 1067  ls
+ 1068  ll
+ 1069  vi jadduu 
+ 1070  git status
+ 1071  git add jadduu 
+ 1072  ls
+ 1073  git status
+ 1074  git commit 
+ 1075  git commit -m "new update"
+ 1076  git status
+ 1077  git push
+ 1078  git lo
+ 1079  git log
+ 1080  git branch
+ 1081  git branch develop
+ 1082  git branch
+ 1083  git chekout develop
+ 1084  git checkout develop
+ 1085  git branch
+ 1086  ls
+ 1087  echo "create new file" > file4
+ 1088  git status
+ 1089  git add file4
+ 1090  git status
+ 1091  git commit -m "data"
+ 1092  git status
+ 1093  git push
+ 1094  git push --set-upstream origin develop
+ 1095  git status
+ 1096  history
+ 1097  ls
+ 1098  git status
+ 1099  cd /pappu
+ 1100  ls
+ 1101  git status
+ 1102  git clone git@github.com:pappuhedaoo244/data.git
+ 1103  ls
+ 1104  cd data
+ 1105  ls
+ 1106  mkdir -p fuck/u/all
+ 1107  ls
+ 1108  cd fuck/u/all
+ 1109  ls
+ 1110  touch prerna
+ 1111  ls
+ 1112  cd -
+ 1113  ls
+ 1114  git status
+ 1115  git add fuck
+ 1116  git status
+ 1117  git commit -m "new status"
+ 1118  git status
+ 1119  git push
+ 1120  cd -
+ 1121  ls
+ 1122  cat prerna 
+ 1123  git status
+ 1124  git pull prerna
+ 1125  ls
+ 1126  cat prerna 
+ 1127  git pull
+ 1128  cat prerna 
+ 1129  ls
+ 1130  cd
+ 1131  git status
+ 1132  ls
+ 1133  git clone git@github.com:pappuhedaoo244/localrepo.git
+ 1134  ls
+ 1135  cd localrepo
+ 1136  ls
+ 1137  ll
+ 1138  touch abc
+ 1139  git status
+ 1140  git add abc
+ 1141  git status
+ 1142  git commit abc
+ 1143  git commit -m "new one"
+ 1144  git status
+ 1145  git push 
+ 1146  git status
+ 1147  git branch
+ 1148  git pull
+ 1149  ls
+ 1150  cat abc 
+ 1151  ls
+ 1152  git checkout vishal
+ 1153  git branch
+ 1154  git checkout rakesh
+ 1155  git branch
+ 1156  ls
+ 1157  touch code
+ 1158  echo "a new set of code" > code
+ 1159  cat code
+ 1160  git status
+ 1161  git add code
+ 1162  git status
+ 1163  git commit -m "hacker1"
+ 1164  git status 
+ 1165  git push
+ 1166  git status
+ 1167  history
+ 1168  git status
+ 1169  git checkout master
+ 1170  git branch
+ 1171  git status
+ 1172  ls
+ 1173  git pull
+ 1174  git status
+ 1175  ls
+ 1176  ll
+ 1177  git log
+ 1178  git revert 6f4517775aa972fe63d5312bb754661d070bba51
+ 1179  exit
+ 1180  ls
+ 1181  cd raju
+ 1182  ls
+ 1183  git branch
+ 1184  ls
+ 1185  git pull
+ 1186  ls
+ 1187  git log
+ 1188  git revert 12dabc8f821f3eab31504678cba609bd2812ea59
+ 1189  git revert 12dabc8f821f3eab31504678cba609bd2812ea59 -m
+ 1190  git revert
+ 1191  git revert -m 12dabc8f821f3eab31504678cba609bd2812ea59
+ 1192  ls
+ 1193  rm -rf README.md 
+ 1194  ls
+ 1195  git log
+ 1196  git revert 12dabc8f821f3eab31504678cba609bd2812ea59
+ 1197  git revert ce514c58b59869f03a7fe7400d3f3eed3014bfc2
+ 1198  ls
+ 1199  git log
+ 1200  git revert 12dabc8f821f3eab31504678cba609bd2812ea59
+ 1201  git revert ce514c58b59869f03a7fe7400d3f3eed3014bfc2.
+ 1202  git revert d378b72bbda46715c7b684b0c6144a4fce418ced
+ 1203  ls
+ 1204  cat README.md 
+ 1205  exit
+ 1206  apt list --upgradable 
+ 1207  clear
+ 1208  ls
+ 1209  git -version
+ 1210  git --version
+ 1211  git status
+ 1212  ls
+ 1213  ls -la
+ 1214  git init .
+ 1215  git status
+ 1216  echo "ntp code" > ntp
+ 1217  ls
+ 1218  git add ntp
+ 1219  git status
+ 1220  git commit -m "first commit"
+ 1221  git status
+ 1222  git branch
+ 1223  git checkout pappu
+ 1224  git branch sagar
+ 1225  git branch
+ 1226  git checkout sagar
+ 1227  git branch
+ 1228  git push 
+ 1229  git remote add origin git@github.com:pappuhedaoo244/sagar.git
+ 1230  git status
+ 1231  git push ntp
+ 1232  ls
+ 1233  git add ntp
+ 1234  ls
+ 1235  git status
+ 1236  ls
+ 1237  ls -la
+ 1238  git commit -m "first commit"
+ 1239  ls
+ 1240  mkdir raju
+ 1241  mv ntp raju
+ 1242  cd raju/
+ 1243  ls
+ 1244  git status
+ 1245  git init ntp
+ 1246  git init
+ 1247  ls
+ 1248  git status
+ 1249  git add ntp
+ 1250  git status
+ 1251  git commit -m "first commit"
+ 1252  git status
+ 1253  git push
+ 1254  git remote add origin git@github.com:pappuhedaoo244/sagar.git
+ 1255  git push ntp
+ 1256  git push
+ 1257  git branch
+ 1258  git branch sagar
+ 1259  ls
+ 1260  git branch
+ 1261  git checkout sagar
+ 1262  git push --set-upstream origin sagar
+ 1263  ls
+ 1264  git pull
+ 1265  ls
+ 1266  cat README.md 
+ 1267  ls
+ 1268  rm -r README.md 
+ 1269  ls
+ 1270  git log
+ 1271  git revert d38b3b65804eb5e772a3e43881b123f3211f0dcc
+ 1272  ls
+ 1273  git revert d38b3b65804eb5e772a3e43881b123f3211f0dcc
+ 1274  ls
+ 1275  git log
+ 1276  git status
+ 1277  git push
+ 1278  ls
+ 1279  git revert d38b3b65804eb5e772a3e43881b123f3211f0dcc
+ 1280  ls
+ 1281  git log
+ 1282  git --help
+ 1283  git restore d38b3b65804eb5e772a3e43881b123f3211f0dcc
+ 1284  git show
+ 1285  git revert 05cac0d34a68ba010bc611adb037fbccfe269aa3
+ 1286  ls
+ 1287  cat README.md 
+ 1288  git push
+ 1289  ls
+ 1290  git status
+ 1291  git branch
+ 1292  git checkout master
+ 1293  ls
+ 1294  git status
+ 1295  git psuh
+ 1296  git push
+ 1297  git push --set-upstream origin master
+ 1298  git pull
+ 1299  ls
+ 1300  git merge
+ 1301  ls
+ 1302  git pull
+ 1303  ls
+ 1304  git pull
+ 1305  ls
+ 1306  cd papppu
+ 1307  ls
+ 1308  cd pappu/
+ 1309  ls
+ 1310  ll
+ 1311  cd data
+ 1312  ls
+ 1313  git status
+ 1314  git branch
+ 1315  git branch origin master
+ 1316  git branch
+ 1317  git branch -D origin
+ 1318  ls
+ 1319  cd
+ 1320  git clone git@github.com:pappuhedaoo244/scripts.git4
+ 1321  git clone git@github.com:pappuhedaoo244/scripts.git
+ 1322  git status
+ 1323  ls
+ 1324  cd scripts/
+ 1325  ls
+ 1326  mv 'ntp script' ntpscript
+ 1327  ls
+ 1328  cat ntpscript 
+ 1329  git status
+ 1330  git add ntpscript 
+ 1331  git status
+ 1332  git commit -m "updated script"
+ 1333  git status
+ 1334  git branch
+ 1335  git branch slave
+ 1336  git branch
+ 1337  git push origin slave
+ 1338  ls
+ 1339  git branch slave
+ 1340  ls
+ 1341  git branch
+ 1342  git checkout slave
+ 1343  ls
+ 1344  rm --help
+ 1345  ls
+ 1346  rm -ri *
+ 1347  ls
+ 1348  git status
+ 1349  git add .
+ 1350  git status
+ 1351  git commit -m "new"
+ 1352  git status
+ 1353  git push
+ 1354  git push --set-upstream origin slave
+ 1355  history
+ 1356  history > historycomm1
