@@ -1,0 +1,27 @@
+#!/bin/sh
+
+/opt/ASE/bin/ase events | grep -i ntp | grep Error > /dev/null
+if [ $? -eq 0 ]; then
+	which systemctl > /dev/null
+	if [ $? -eq 0 ]; then
+	systemctl restart ntpd.service
+	else
+	/etc/init.d/ntp restart
+	fi
+/opt/ASE/bin/ase restart
+NTPSRV=`ntpq -np | head -3 | tail -1 | awk '{print $1}' | sed 's/+//g'`
+ntpdate -u $NTPSRV
+sleep 20
+/opt/ASE/bin/ase events | grep -i ntp | grep successfull > /dev/null
+	if [ $? -eq 0 ]; then
+	echo "NTP service is running fine"
+	else
+	echo "Need to check NTP service manually"
+	fi
+fi
+
+
+crontab -l 
+crontab -e
+*/30 * * * * /root/chkntp.sh --> interval of every 30min it will check it
+ :wq!
